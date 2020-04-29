@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="heading">
+    <h1>David Lynch Films</h1>
+</div>
+<!-- <div class="background"> -->
+    <div class="container">
+        <h2>Pick some letters to start guessing</h2>
+        <div>
+            <img id="image" src="assets/images/lynch.png" height="300">
+        </div>
+
+        <div>
+            <h3 id="currentword"></h3>
+        </div>
+        <div id="scoreboard">
+            <div class="sidebar">
+                <h3>Guesses remaining:
+                    <span id="guessesremaining"></span>
+                </h3>
+            </div>
+
+            <div class="sidebar">
+                <h3>Wins:
+                    <span id="winstracker"></span>
+                </h3>
+            </div>
+
+            <div class="sidebar">
+                <h3>Losses:
+                    <span id="losstracker"></span>
+                </h3>
+            </div>
+
+            <div class="sidebar">
+                <h3>Incorrect letters:
+                    <span id="playerguesses"></span>
+                </h3>
+            </div>
+
+
+        </div>
+    </div>
+<!-- </div> -->
+
+<div>
+    <audio id="eraserhead">
+        <source src="./assets/audio/eraserhead.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="theelephantman">
+        <source src="./assets/audio/theelephantman.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="bluevelvet">
+        <source src="./assets/audio/bluevelvet.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="wildatheart">
+        <source src="./assets/audio/wildatheart.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="twinpeaks">
+        <source src="./assets/audio/twinpeaks.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="losthighway">
+        <source src="./assets/audio/losthighway.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="mulhollanddrive">
+        <source src="./assets/audio/mulhollanddrive.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="inlandempire">
+        <source src="./assets/audio/inlandempire.mp3" type="audio/mp3">
+    </audio>
+    
+    
+</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
