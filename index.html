@@ -12,52 +12,57 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="heading">
-    <h1>David Lynch Films</h1>
-</div>
-<!-- <div class="background"> -->
-    <div class="container">
-        <h2>Pick some letters to start guessing</h2>
-        <div>
-            <img id="image" src="assets/images/lynch.png" height="300">
-        </div>
-
-        <div>
-            <h3 id="currentword"></h3>
-        </div>
-        <div id="scoreboard">
-            <div class="sidebar">
-                <h3>Guesses remaining:
-                    <span id="guessesremaining"></span>
-                </h3>
-            </div>
-
-            <div class="sidebar">
-                <h3>Wins:
-                    <span id="winstracker"></span>
-                </h3>
-            </div>
-
-            <div class="sidebar">
-                <h3>Losses:
-                    <span id="losstracker"></span>
-                </h3>
-            </div>
-
-            <div class="sidebar">
-                <h3>Incorrect letters:
-                    <span id="playerguesses"></span>
-                </h3>
-            </div>
-
-
-        </div>
+<div class="wrapper">
+    <div class="headtitle">
+        <h1>DAVID LYNCH GAME</h1>
     </div>
-<!-- </div> -->
+   
+        <div class="container">
+            <h2>Pick some letters to start guessing David Lynch films</h2>
+            <div class="imagecontainer">
+                <div>
+                    <img id="image" src="assets/images/lynch.png" height="300">
+                </div>
+            </div>
+
+            <div>
+                <h3 id="currentword"></h3>
+            </div>
+            <div id="scoreboard">
+                <div class="sidebar">
+                    <h3>Guesses remaining:
+                        <span id="guessesremaining"></span>
+                    </h3>
+                </div>
+
+                <div class="sidebar">
+                    <h3>Wins:
+                        <span id="winstracker"></span>
+                    </h3>
+                </div>
+
+                <div class="sidebar">
+                    <h3>Losses:
+                        <span id="losstracker"></span>
+                    </h3>
+                </div>
+
+                <div class="sidebar">
+                    <h3>Incorrect letters:
+                        <span id="playerguesses"></span>
+                    </h3>
+                </div>
+
+
+            </div>
+        </div>
+   
+</div>
 
 <div>
     <audio id="eraserhead">

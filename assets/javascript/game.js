@@ -185,7 +185,7 @@ function complete() {//defines if and when the user wins a round
     else if (guessesRemaining === 0) {
         losses++;
         reset();
-        document.getElementById("image").src = "./assets/images/try-again.png";
+        // document.getElementById("image").src = "./assets/images/try-again.png";
         document.getElementById("losstracker").innerHTML = " " + losses;
     }
 

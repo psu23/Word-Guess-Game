@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/wallpaper.jpg);
+}
+
+.wrapper {
+    max-width: 850px;
+    border: solid 10px white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4e0436;
+    background: #740108;
+    padding: 15px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #644647;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #47ff52, -1px -1px 0 #47ff52, 1px -1px 0 #47ff52, -1px 1px 0 #47ff52, 0px 1px 0 #47ff52, 1px 0px 0 #47ff52, 0px -1px 0 #47ff52, -1px 0px 0 #47ff52, 4px 2px 0 #333;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.container {
+    font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif, italic;
+    color: white;
+}
+
+.imagecontainer {
+    text-align: center;
+}
+
+#image {
+    border: solid 10px white;
+    max-height: 300px;
+}
+
+@media screen and (max-width: 860px) {
+
+    #image {
+        max-height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
