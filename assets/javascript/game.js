@@ -20,7 +20,7 @@ function Game(){
     blanks = lettersOfWord.length;
 
     for (i = 0; i < blanks; i++) {
-        blanksAndCorrect.push("_");//this will show blanks in the text shown to the user
+        blanksAndCorrect.push();//this will show blanks in the text shown to the user
     }
 
     // console.log(randomWord);
