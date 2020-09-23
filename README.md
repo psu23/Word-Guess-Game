@@ -1,6 +1,7 @@
 # David Lynch Film Guess Game
 
 Deployed site: https://psu23.github.io/Word-Guess-Game/
+Disclaimer: Not compatible on mobile and tablet devices.
 
 ### Instructions ###
 
